@@ -1,0 +1,10 @@
+streamlit
+fastapi
+uvicorn
+pennylane
+scikit-learn
+pandas
+matplotlib
+joblib
+sqlalchemy
+firebase-admin
