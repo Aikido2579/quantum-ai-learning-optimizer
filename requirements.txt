@@ -33,3 +33,7 @@ torch
 tqdm
 pennylane-qiskit   # optional, only if you want qiskit backends
 
+mne
+nibabel
+nilearn
+
