@@ -24,3 +24,12 @@ streamlit-authenticator==0.2.2
 # Optional: Visualization enhancements
 seaborn==0.12.2
 plotly==5.16.1
+
+# neuro / EEG (optional; conda recommended for MNE but pip works for small usage)
+mne
+# ML frameworks
+torch
+# convenience
+tqdm
+pennylane-qiskit   # optional, only if you want qiskit backends
+
