@@ -1,10 +1,26 @@
-streamlit
-fastapi
-uvicorn
-pennylane
-scikit-learn
-pandas
-matplotlib
-joblib
-sqlalchemy
-firebase-admin
+# Core ML and data libraries
+pennylane==0.34.0
+scikit-learn==1.3.0
+pandas==2.0.3
+numpy==1.24.4
+matplotlib==3.7.2
+joblib==1.3.2
+
+# Web app and API
+streamlit==1.28.2
+fastapi==0.103.2
+uvicorn==0.23.2
+
+# Optional: Firebase integration
+firebase-admin==6.2.0
+
+# Optional: SQL database support
+sqlalchemy==2.0.21
+psycopg2-binary==2.9.7
+
+# Optional: Authentication (for dashboard login)
+streamlit-authenticator==0.2.2
+
+# Optional: Visualization enhancements
+seaborn==0.12.2
+plotly==5.16.1
